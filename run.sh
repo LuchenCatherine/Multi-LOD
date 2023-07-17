@@ -1,0 +1,1 @@
+./build/lod_generator ./plain_v1.4 ./multi_lod_0.8 0.8
