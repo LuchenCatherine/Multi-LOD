@@ -11,7 +11,7 @@ Multi-LOD project includes:
 3. a Python library for converting glb files to off (Object File Format) files, which is the underlying 3D model format for generating multi-LOD models. 
 
 ## Dependencies
-For C++ libraries [1] [2]:
+For C++ libraries [1]:
 1. CMake
     ```bash
     sudo apt-get install build-essential libssl-dev
@@ -59,3 +59,10 @@ cd build
 cmake ..
 make
 ```
+## Model
+1. multi_lod_0.2: Models where the number of edges of the models drops below 20% of the initial count. 
+2. multi_lod_0.4: Models where the number of edges of the models drops below 40% of the initial count. 
+3. multi_lod_0.6: Models where the number of edges of the models drops below 60% of the initial count. 
+4. multi_lod_0.8: Models where the number of edges of the models drops below 80% of the initial count.
+
+## Usage
