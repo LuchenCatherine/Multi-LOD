@@ -60,9 +60,27 @@ cmake ..
 make
 ```
 ## Model
+In the model directory:
+
 1. multi_lod_0.2: Models where the number of edges of the models drops below 20% of the initial count. 
 2. multi_lod_0.4: Models where the number of edges of the models drops below 40% of the initial count. 
 3. multi_lod_0.6: Models where the number of edges of the models drops below 60% of the initial count. 
 4. multi_lod_0.8: Models where the number of edges of the models drops below 80% of the initial count.
 
 ## Usage
+1. convert glb files of 3D models to off (Object File Format) files:
+    ```bash
+    cd $scripts
+    python glb_parser.py input_dir_3D_model_glb output_dir_3D_model_off
+    ```
+2. generate different LOD models by specifiying the resolution parameter $k$,
+   ```bash
+   ./build/lod_generator body_path ./multi_lod_k k,
+   e.g.,  ./build/lod_generator ./model/plain_v4 ./multi_lod_0.2 0.2,
+   or
+   chmod +x ./run.sh
+   ./run.sh
+   ```
+note: 
+   
+   
