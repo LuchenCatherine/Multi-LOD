@@ -1,1 +1,1 @@
-./build/lod_generator ./plain_v1.4 ./model/multi_lod_soup_0.2 0.2
+./build/lod_generator ./plain_v1.4 ./model/multi_lod_soup_0.1 0.1
