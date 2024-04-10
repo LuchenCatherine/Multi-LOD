@@ -1,5 +1,5 @@
 # DEPRECATED
-**Please use [https://github.com/cns-iu/hra-multi-lod/tree/main](https://github.com/cns-iu/hra-multi-lod/tree/main) instead.**
+:no_entry: **Please use [https://github.com/cns-iu/hra-multi-lod/tree/main](https://github.com/cns-iu/hra-multi-lod/tree/main) instead.** :no_entry:
 
 # Multi-LOD: Generate multiple level of detail (LOD) models
 **Version:** 1.0.0
